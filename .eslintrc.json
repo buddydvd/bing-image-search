@@ -1,0 +1,43 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["node"],
+  "extends": ["airbnb-base", "plugin:node/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "no-console": "off",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "key-spacing": ["error", {
+      "mode": "minimum"
+    }],
+    "no-multi-spaces": "off",
+    "no-multiple-empty-lines": ["error", {
+      "max": 1,
+      "maxBOF": 0,
+      "maxEOF": 0
+    }],
+    "no-await-in-loop": "off",
+    "no-cond-assign": ["error", "except-parens"],
+    "no-restricted-syntax": "off",
+    "function-paren-newline": ["error", "consistent"],
+    "no-underscore-dangle": "off",
+    "object-curly-newline": "off",
+    "prefer-destructuring": "off",
+    "linebreak-style": "off",
+    "node/shebang": "off",
+    "node/no-unsupported-features": ["error", {
+      "version": 10.0,
+      "ignores": ["modules"]
+    }]
+  }
+}
