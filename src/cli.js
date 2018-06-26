@@ -46,8 +46,6 @@ function keyValuePairsToObject(kvps = []) {
     specialAG.addArgument(['--hparam'],       { help: 'Add header param (multiples allowed)', nargs: 2, action: 'append', metavar: ['KEY', 'VALUE'], defaultValue: [] });
     specialAG.addArgument(['--raw'],          { help: 'Do not unwrap search results from API responses', nargs: 0 });
 
-
-
     const args = parser.parseArgs();
     const searchOpts = {
       query:          args.query,
