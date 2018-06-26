@@ -74,9 +74,7 @@ function keyValuePairsToObject(kvps = []) {
       queryParams:    keyValuePairsToObject(args.qparam),
       headerParams:   keyValuePairsToObject(args.hparam),
     };
-    const responses = search(searchOpts);
-    for (let step; !(step = await responses.next()).done;) {
-      const response = step.value;
+    for await (const response of search(searchOpts)) {
       const outputFn = obj => console.log(JSON.stringify(obj, null, args.indent));
       if (args.raw) {
         outputFn(response);
