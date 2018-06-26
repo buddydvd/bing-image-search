@@ -9,6 +9,7 @@
   "bugs": "https://github.com/funpokes/bing-image-search/issues",
   "dependencies": {
     "argparse": "^1.0.10",
+    "babel-polyfill": "^6.26.0",
     "bing-image-search-async-iterator": "^1.2.1"
   },
   "devDependencies": {
