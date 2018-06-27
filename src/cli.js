@@ -37,7 +37,7 @@ function keyValuePairsToObject(kvps = []) {
     filtersAG.addArgument(['--maxWidth'],     { help: 'Width is less than or equal to VALUE', type: 'int', metavar: 'VALUE' });
     filtersAG.addArgument(['--maxHeight'],    { help: 'Height is less than or equal to VALUE', type: 'int', metavar: 'VALUE' });
     filtersAG.addArgument(['--minFileSize'],  { help: 'File is size greater than or equal to VALUE', type: 'int', metavar: 'VALUE' });
-    filtersAG.addArgument(['--maxFileSize'],  { help: 'File is size less than or equal to VLAUE', type: 'int', metavar: 'VALUE' });
+    filtersAG.addArgument(['--maxFileSize'],  { help: 'File is size less than or equal to VALUE', type: 'int', metavar: 'VALUE' });
 
     const specialAG = parser.addArgumentGroup({ description: 'Special arguments' });
     specialAG.addArgument(['--offset'],       { help: 'Initial offset for API call (default: 0)', type: 'int', defaultValue: 0, ...{ help: Const.SUPPRESS } });
