@@ -9,7 +9,7 @@
   "dependencies": {
     "argparse": "^1.0.10",
     "babel-polyfill": "^6.26.0",
-    "bing-image-search-async-iterator": "^1.2.1"
+    "bing-image-search-async-iterator": "^1.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -18,7 +18,7 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^6.0.1"
   },
   "engines": {
