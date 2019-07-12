@@ -1,4 +1,4 @@
-import 'babel-polyfill';
+import 'regenerator-runtime/runtime';
 import { ArgumentParser, Const } from 'argparse';
 import search from 'bing-image-search-async-iterator';
 import { version } from '../package.json';

@@ -1,17 +1,18 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "targets": {
           "node": "6"
         },
-        "useBuiltIns": true
+        "useBuiltIns": "entry",
+        "corejs": "3.0.0"
       }
     ]
   ],
   "plugins": [
-    "transform-async-generator-functions",
-    "transform-object-rest-spread"
+    "@babel/plugin-proposal-async-generator-functions",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
