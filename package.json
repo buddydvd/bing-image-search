@@ -1,11 +1,11 @@
 {
   "name": "bing-image-search",
   "description": "CLI tool query the Bing Image Search API",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin": {
     "bing-image-search": "bin/bing-image-search"
   },
-  "bugs": "https://github.com/funpokes/bing-image-search/issues",
+  "bugs": "https://github.com/buddydvd/bing-image-search/issues",
   "dependencies": {
     "argparse": "^1.0.10",
     "bing-image-search-async-iterator": "^1.2.2",
@@ -30,7 +30,7 @@
     "bin",
     "lib"
   ],
-  "repository": "funpokes/bing-image-search",
+  "repository": "buddydvd/bing-image-search",
   "keywords": [
     "cli",
     "bing-api",
@@ -39,7 +39,7 @@
   ],
   "author": "David Hu",
   "license": "MIT",
-  "homepage": "https://github.com/funpokes/bing-image-search",
+  "homepage": "https://github.com/buddydvd/bing-image-search",
   "scripts": {
     "build": "babel src -d lib",
     "prepublishOnly": "npm run build",
